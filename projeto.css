@@ -1,0 +1,184 @@
+  body{background-image: linear-gradient(to bottom, black, rgb(102, 102, 102));
+    
+  }
+
+
+      .titulo_curriculo h1 {
+
+    text-align: center;
+      font-family: OCR A Std, monospace;
+       letter-spacing: 0.2px;
+        font-size: 50px;
+         padding-top: 20px;
+          padding-bottom: 20px;
+           margin-left: 80px;
+            margin-right: 80px;
+           margin-top: 20px;
+          margin-bottom: 130px;
+         border: 5px solid rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.781);
+      color: black;
+     border-radius: 8px;
+    }
+
+
+      .foto img{
+
+  width: 350px;
+    height: 420px;
+     content:center;
+      display:block;
+        position: relative;
+      left: 35%;
+    border-radius: 20%;
+   border: 4px solid black;
+  box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.349);
+ }
+
+  .biografia {
+
+    border: 2px solid white;
+     text-align: center;
+      margin-top : 150px;
+       margin-left: 80px;
+        margin-right: 80px;
+         padding-left: 60px;
+        padding-right: 60px;
+       background-color:rgb(151, 146, 146);
+      border-radius: 8px;
+     border: black 2px solid;
+    font-family:'Luminari', fantasy;
+   font-size: 20px;
+}
+
+
+    .conhecimentos {
+
+  border: 5px solid black;
+   border-radius: 8px;
+    text-align: left;
+     background-color: rgb(151, 146, 146);
+      margin-top: 150px;
+       padding-bottom: 80px;
+      padding-left: 20px;
+     margin-right: 900px;
+    font-size:15px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+
+    .conhecimentos img.html{
+width: 350px;
+  height: 350px;
+   margin-left: 16px;
+    border-radius: 8px;
+  transition: transform 0.5s ease;
+box-shadow: 4.5px 10px 10px rgba(0, 0, 0, 0.644);
+
+}
+
+img.html:hover {
+
+  transform: scale(1.1);
+}
+
+
+.conhecimentos img.css{
+
+width: 350px;
+  height: 350px;
+    margin-left: 16px;
+      border-radius: 8px;
+    transition: transform 0.5s ease;
+  margin-top: 35px;
+box-shadow: 4.5px 10px 10px rgba(0, 0, 0, 0.644);
+
+
+}
+
+img.css:hover {
+  transform: scale(1.1);
+}
+
+
+.whatsapp img {
+
+    margin-top: 100px;
+      margin-bottom: 2px;
+        height: 45px;
+          width: 55px;
+            left: 0.8%;
+              border-radius: 8px;
+                border: border;
+              transition: transform 0.5s ease;
+            box-shadow:2.5px 5px 10px  rgba(0, 0, 0, 0.349);
+          position: fixed;
+         bottom: 190px;
+}
+
+.whatsapp img:hover {
+
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+
+.linkedin img {
+
+    height: 45px;
+      width: 55px;
+        border-radius: 8px;
+          margin-top: 4px;
+            border: none;
+              left: 0.8%;
+            transition: transform 0.5s ease;
+          box-shadow:2.5px 5px 10px  rgba(0, 0, 0, 0.349);
+        position: fixed;
+       bottom: 140px;
+}
+
+.linkedin img:hover {
+
+  transform: scale(1.2);
+}
+
+.facebook img {
+  
+  height: 48px;
+    width: 55px;
+      left: 0.8%;
+        margin-top: 4px;
+          border-radius: 8px;
+            border: none;
+          transition: transform 0.5s ease;
+        box-shadow:2.5px 5px 10px  rgba(0, 0, 0, 0.349);
+      position: fixed;
+    bottom: 80px;
+}
+
+.facebook img:hover {
+
+  transform: scale(1.2);
+}
+
+.github img {
+    height: 45px;
+      width: 55px;
+        left: 0.8%;
+          margin-top: 4px;
+            border-radius: 8px;
+              border: none;
+            transition: transform 0.5s ease;
+          box-shadow:2.5px 5px 10px  rgba(0, 0, 0, 0.349);
+        position: fixed;
+      bottom: 30px;
+}
+
+.github img:hover {
+
+  transform: scale(1.2);
+}
